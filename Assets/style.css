@@ -1,0 +1,67 @@
+/* Set default styles for the page */
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    background-color: #f3f3f3;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .container-fluid {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .time-block {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hour {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-right: none;
+  }
+  
+  .description {
+    border: 1px solid #ddd;
+    flex-grow: 1;
+  }
+  
+  .saveBtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Color code time blocks based on whether they are in the past, present, or future */
+  .past {
+    background-color: #d3d3d3; /* Grey */
+  }
+  
+  .present {
+    background-color: #ff6961; /* Red */
+  }
+  
+  .future {
+    background-color: #77dd77; /* Green */
+  }
+  
+
+
+  
+  /* Set media queries for responsive layout */
+  @media (min-width: 768px) {
+    .container-fluid {
+      max-width: 750px;
+    }
+}
+
