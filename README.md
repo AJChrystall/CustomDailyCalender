@@ -11,7 +11,7 @@ JS: The script.js file contains the code that implements the functionality of th
 
 STYLE: The CSS file style.css contains styling rules for the workday scheduler, including the background colors for the past, present, and future time-blocks.
 # Links
-LIVE LINK: 
+LIVE LINK: https://ajchrystall.github.io/CustomDailyCalender/
 HTTPS: https://github.com/AJChrystall/CustomDailyCalender.git
 SSH: git@github.com:AJChrystall/CustomDailyCalender.git
 GITHUB CLI: gh repo clone AJChrystall/CustomDailyCalender
